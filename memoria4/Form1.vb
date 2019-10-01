@@ -7,6 +7,7 @@
     Private Sub Inicializa()
         Dim i As Integer
         Ajogar = 1
+        Randomize()
         For i = 0 To 11
             Matriz(i) = 0
             Jogadas(i) = 0
@@ -77,7 +78,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Inicializa()
+        Call Inicializa()
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
