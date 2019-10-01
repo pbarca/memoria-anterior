@@ -58,17 +58,16 @@
             Case "P11" : Imagem(10)
             Case "P12" : Imagem(11)
         End Select
-        If Ajogar = 1 Then
-            Ajogar = 2
-        Else
-            Ajogar = 1
+        If Ajogar = 1 Then : Ajogar = 2
+        Else : Ajogar = 1
         End If
         Dim ganhou = True
         For i = 0 To 11
             If Jogadas(i) = 0 Then ganhou = False
         Next
         If ganhou Then
-            MsgBox("Parabéns! Jogar Novamente? ")
+            Beep()
+            MsgBox("Parabéns! Jogar Novamente? ",, "Fim do Jogo")
             Call Inicializa()
         End If
 
