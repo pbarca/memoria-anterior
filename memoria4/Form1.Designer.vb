@@ -24,126 +24,49 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.P1 = New System.Windows.Forms.PictureBox()
-        Me.P2 = New System.Windows.Forms.PictureBox()
-        Me.P3 = New System.Windows.Forms.PictureBox()
-        Me.P4 = New System.Windows.Forms.PictureBox()
-        Me.P8 = New System.Windows.Forms.PictureBox()
-        Me.P7 = New System.Windows.Forms.PictureBox()
-        Me.P6 = New System.Windows.Forms.PictureBox()
-        Me.P5 = New System.Windows.Forms.PictureBox()
         Me.P12 = New System.Windows.Forms.PictureBox()
         Me.P11 = New System.Windows.Forms.PictureBox()
         Me.P10 = New System.Windows.Forms.PictureBox()
         Me.P9 = New System.Windows.Forms.PictureBox()
-        CType(Me.P1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.P2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.P3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.P4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.P8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.P7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.P6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.P5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.P8 = New System.Windows.Forms.PictureBox()
+        Me.P7 = New System.Windows.Forms.PictureBox()
+        Me.P6 = New System.Windows.Forms.PictureBox()
+        Me.P5 = New System.Windows.Forms.PictureBox()
+        Me.P4 = New System.Windows.Forms.PictureBox()
+        Me.P3 = New System.Windows.Forms.PictureBox()
+        Me.P2 = New System.Windows.Forms.PictureBox()
+        Me.P1 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.P12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.P11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.P10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.P9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(329, 39)
+        Me.Label1.Font = New System.Drawing.Font("Harrington", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Salmon
+        Me.Label1.Location = New System.Drawing.Point(204, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.Size = New System.Drawing.Size(392, 56)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Label1"
-        '
-        'P1
-        '
-        Me.P1.BackgroundImage = CType(resources.GetObject("P1.BackgroundImage"), System.Drawing.Image)
-        Me.P1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P1.Location = New System.Drawing.Point(111, 71)
-        Me.P1.Name = "P1"
-        Me.P1.Size = New System.Drawing.Size(128, 128)
-        Me.P1.TabIndex = 1
-        Me.P1.TabStop = False
-        '
-        'P2
-        '
-        Me.P2.BackgroundImage = CType(resources.GetObject("P2.BackgroundImage"), System.Drawing.Image)
-        Me.P2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P2.Location = New System.Drawing.Point(273, 71)
-        Me.P2.Name = "P2"
-        Me.P2.Size = New System.Drawing.Size(128, 128)
-        Me.P2.TabIndex = 2
-        Me.P2.TabStop = False
-        '
-        'P3
-        '
-        Me.P3.BackgroundImage = CType(resources.GetObject("P3.BackgroundImage"), System.Drawing.Image)
-        Me.P3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P3.Location = New System.Drawing.Point(435, 71)
-        Me.P3.Name = "P3"
-        Me.P3.Size = New System.Drawing.Size(128, 128)
-        Me.P3.TabIndex = 3
-        Me.P3.TabStop = False
-        '
-        'P4
-        '
-        Me.P4.BackgroundImage = CType(resources.GetObject("P4.BackgroundImage"), System.Drawing.Image)
-        Me.P4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P4.Location = New System.Drawing.Point(598, 71)
-        Me.P4.Name = "P4"
-        Me.P4.Size = New System.Drawing.Size(128, 128)
-        Me.P4.TabIndex = 4
-        Me.P4.TabStop = False
-        '
-        'P8
-        '
-        Me.P8.BackgroundImage = CType(resources.GetObject("P8.BackgroundImage"), System.Drawing.Image)
-        Me.P8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P8.Location = New System.Drawing.Point(598, 229)
-        Me.P8.Name = "P8"
-        Me.P8.Size = New System.Drawing.Size(128, 128)
-        Me.P8.TabIndex = 8
-        Me.P8.TabStop = False
-        '
-        'P7
-        '
-        Me.P7.BackgroundImage = CType(resources.GetObject("P7.BackgroundImage"), System.Drawing.Image)
-        Me.P7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P7.Location = New System.Drawing.Point(435, 229)
-        Me.P7.Name = "P7"
-        Me.P7.Size = New System.Drawing.Size(128, 128)
-        Me.P7.TabIndex = 7
-        Me.P7.TabStop = False
-        '
-        'P6
-        '
-        Me.P6.BackgroundImage = CType(resources.GetObject("P6.BackgroundImage"), System.Drawing.Image)
-        Me.P6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P6.Location = New System.Drawing.Point(273, 229)
-        Me.P6.Name = "P6"
-        Me.P6.Size = New System.Drawing.Size(128, 128)
-        Me.P6.TabIndex = 6
-        Me.P6.TabStop = False
-        '
-        'P5
-        '
-        Me.P5.BackgroundImage = CType(resources.GetObject("P5.BackgroundImage"), System.Drawing.Image)
-        Me.P5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P5.Location = New System.Drawing.Point(111, 229)
-        Me.P5.Name = "P5"
-        Me.P5.Size = New System.Drawing.Size(128, 128)
-        Me.P5.TabIndex = 5
-        Me.P5.TabStop = False
+        Me.Label1.Text = "Jogo da Memória"
         '
         'P12
         '
         Me.P12.BackgroundImage = CType(resources.GetObject("P12.BackgroundImage"), System.Drawing.Image)
         Me.P12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P12.Location = New System.Drawing.Point(598, 392)
+        Me.P12.Location = New System.Drawing.Point(580, 428)
         Me.P12.Name = "P12"
         Me.P12.Size = New System.Drawing.Size(128, 128)
         Me.P12.TabIndex = 12
@@ -153,7 +76,7 @@ Partial Class Form1
         '
         Me.P11.BackgroundImage = CType(resources.GetObject("P11.BackgroundImage"), System.Drawing.Image)
         Me.P11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P11.Location = New System.Drawing.Point(435, 392)
+        Me.P11.Location = New System.Drawing.Point(417, 428)
         Me.P11.Name = "P11"
         Me.P11.Size = New System.Drawing.Size(128, 128)
         Me.P11.TabIndex = 11
@@ -163,7 +86,7 @@ Partial Class Form1
         '
         Me.P10.BackgroundImage = CType(resources.GetObject("P10.BackgroundImage"), System.Drawing.Image)
         Me.P10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P10.Location = New System.Drawing.Point(273, 392)
+        Me.P10.Location = New System.Drawing.Point(255, 428)
         Me.P10.Name = "P10"
         Me.P10.Size = New System.Drawing.Size(128, 128)
         Me.P10.TabIndex = 10
@@ -173,17 +96,108 @@ Partial Class Form1
         '
         Me.P9.BackgroundImage = CType(resources.GetObject("P9.BackgroundImage"), System.Drawing.Image)
         Me.P9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.P9.Location = New System.Drawing.Point(111, 392)
+        Me.P9.Location = New System.Drawing.Point(93, 428)
         Me.P9.Name = "P9"
         Me.P9.Size = New System.Drawing.Size(128, 128)
         Me.P9.TabIndex = 9
         Me.P9.TabStop = False
+        '
+        'P8
+        '
+        Me.P8.BackgroundImage = CType(resources.GetObject("P8.BackgroundImage"), System.Drawing.Image)
+        Me.P8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.P8.Location = New System.Drawing.Point(580, 265)
+        Me.P8.Name = "P8"
+        Me.P8.Size = New System.Drawing.Size(128, 128)
+        Me.P8.TabIndex = 8
+        Me.P8.TabStop = False
+        '
+        'P7
+        '
+        Me.P7.BackgroundImage = CType(resources.GetObject("P7.BackgroundImage"), System.Drawing.Image)
+        Me.P7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.P7.Location = New System.Drawing.Point(417, 265)
+        Me.P7.Name = "P7"
+        Me.P7.Size = New System.Drawing.Size(128, 128)
+        Me.P7.TabIndex = 7
+        Me.P7.TabStop = False
+        '
+        'P6
+        '
+        Me.P6.BackgroundImage = CType(resources.GetObject("P6.BackgroundImage"), System.Drawing.Image)
+        Me.P6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.P6.Location = New System.Drawing.Point(255, 265)
+        Me.P6.Name = "P6"
+        Me.P6.Size = New System.Drawing.Size(128, 128)
+        Me.P6.TabIndex = 6
+        Me.P6.TabStop = False
+        '
+        'P5
+        '
+        Me.P5.BackgroundImage = CType(resources.GetObject("P5.BackgroundImage"), System.Drawing.Image)
+        Me.P5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.P5.Location = New System.Drawing.Point(93, 265)
+        Me.P5.Name = "P5"
+        Me.P5.Size = New System.Drawing.Size(128, 128)
+        Me.P5.TabIndex = 5
+        Me.P5.TabStop = False
+        '
+        'P4
+        '
+        Me.P4.BackgroundImage = CType(resources.GetObject("P4.BackgroundImage"), System.Drawing.Image)
+        Me.P4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.P4.Location = New System.Drawing.Point(580, 107)
+        Me.P4.Name = "P4"
+        Me.P4.Size = New System.Drawing.Size(128, 128)
+        Me.P4.TabIndex = 4
+        Me.P4.TabStop = False
+        '
+        'P3
+        '
+        Me.P3.BackgroundImage = CType(resources.GetObject("P3.BackgroundImage"), System.Drawing.Image)
+        Me.P3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.P3.Location = New System.Drawing.Point(417, 107)
+        Me.P3.Name = "P3"
+        Me.P3.Size = New System.Drawing.Size(128, 128)
+        Me.P3.TabIndex = 3
+        Me.P3.TabStop = False
+        '
+        'P2
+        '
+        Me.P2.BackgroundImage = CType(resources.GetObject("P2.BackgroundImage"), System.Drawing.Image)
+        Me.P2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.P2.Location = New System.Drawing.Point(255, 107)
+        Me.P2.Name = "P2"
+        Me.P2.Size = New System.Drawing.Size(128, 128)
+        Me.P2.TabIndex = 2
+        Me.P2.TabStop = False
+        '
+        'P1
+        '
+        Me.P1.BackgroundImage = CType(resources.GetObject("P1.BackgroundImage"), System.Drawing.Image)
+        Me.P1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.P1.Location = New System.Drawing.Point(93, 107)
+        Me.P1.Name = "P1"
+        Me.P1.Size = New System.Drawing.Size(128, 128)
+        Me.P1.TabIndex = 1
+        Me.P1.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Jokerman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(312, 587)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(171, 39)
+        Me.Button1.TabIndex = 13
+        Me.Button1.Text = "Novo Jogo"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 655)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.P12)
         Me.Controls.Add(Me.P11)
         Me.Controls.Add(Me.P10)
@@ -199,18 +213,18 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.P1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.P2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.P3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.P4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.P8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.P7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.P6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.P5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.P12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.P11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.P10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.P9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -229,4 +243,5 @@ Partial Class Form1
     Friend WithEvents P11 As PictureBox
     Friend WithEvents P10 As PictureBox
     Friend WithEvents P9 As PictureBox
+    Friend WithEvents Button1 As Button
 End Class
