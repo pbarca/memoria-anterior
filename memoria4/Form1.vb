@@ -1,12 +1,15 @@
 ﻿Public Class Form1
     Dim Matriz(12) As Integer
-    Dim Ajogar = 1
+    Dim Jogadas(12) As Integer
+    Dim Ajogar
     Dim Anterior As Integer
     Dim Quadros() As PictureBox
     Private Sub Inicializa()
         Dim i As Integer
+        Ajogar = 1
         For i = 0 To 11
             Matriz(i) = 0
+            Jogadas(i) = 0
             Quadros(i).BackgroundImage = My.Resources.Nada
         Next
 
@@ -28,14 +31,16 @@
             Case 4 : fig.BackgroundImage = My.Resources.leo
             Case 5 : fig.BackgroundImage = My.Resources.libra
         End Select
-
         Quadros(quadro).BackgroundImage = fig.BackgroundImage
+        Jogadas(quadro) = 1
+        Refresh()
+        Threading.Thread.Sleep(500)
         If Ajogar = 1 Then : Anterior = quadro
         ElseIf Matriz(Anterior) <> Matriz(quadro) Then
-            Refresh()
-            Threading.Thread.Sleep(500)
             Quadros(quadro).BackgroundImage = My.Resources.Nada
+            Jogadas(quadro) = 0
             Quadros(Anterior).BackgroundImage = My.Resources.Nada
+            Jogadas(Anterior) = 0
         End If
     End Sub
     Private Sub Clicar(sender As Object, e As EventArgs) Handles P1.Click, P2.Click, P4.Click, P3.Click, P9.Click, P8.Click, P7.Click, P6.Click, P5.Click, P12.Click, P11.Click, P10.Click
@@ -58,6 +63,15 @@
         Else
             Ajogar = 1
         End If
+        Dim ganhou = True
+        For i = 0 To 11
+            If Jogadas(i) = 0 Then ganhou = False
+        Next
+        If ganhou Then
+            MsgBox("Parabéns! Jogar Novamente? ")
+            Call Inicializa()
+        End If
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
