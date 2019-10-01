@@ -119,5 +119,38 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aquarius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\capricornus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gemini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pisces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sagittarius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scorpio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taurus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nada.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
